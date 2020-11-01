@@ -12,12 +12,27 @@ For each line:
 
 The final result (actually, the subtle groups) are printed to the screen and written to file (at same directory of the project).
 
+************************************************************************************************************************************
 
-…
 How to run?
 
-Clone the project from master branch of https://github.com/odedpinchover/MyProject/new/master?readme=1
-This is a standard java project. Please run the class Main 
+1 Clone the project from master branch of https://github.com/odedpinchover/MyProject/new/master?readme=1
+
+  After you open the project please verify that resource folder is marked as the resources folder for this project - 
+  you should have this in your TestProject.iml file
+
+  <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
+  </content>
+ 
+  if you dont have that - simply mark the folder under src/resources as resources folder within your IDE
+  (i specify this as when the project is imported into your IDE the file may be overwrriten and the folder is not mark as resources folder
+  and then the project cannot read its content )                                
+  
+2 This is a standard java project. Please run class Main 
+
+************************************************************************************************************************************
 
 1. What can you say about the complexity of your code?
 
