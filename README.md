@@ -21,10 +21,10 @@ How to run?
   After you open the project please verify that resource folder is marked as the resources folder for this project - 
   you should have this in your TestProject.iml file
 
-  <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
-  </content>
+  content url="file://$MODULE_DIR$"
+      sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" 
+      sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" 
+  /content
  
   if you dont have that - simply mark the folder under src/resources as resources folder within your IDE
   (i specify this as when the project is imported into your IDE the file may be overwrriten and the folder is not mark as resources folder
