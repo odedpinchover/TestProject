@@ -78,7 +78,7 @@ public class Helper {
 
     private static void writeOutputToFile(StringBuffer sbSentences) {
         try {
-            FileWriter myWriter = new FileWriter("filename.txt");
+            FileWriter myWriter = new FileWriter("output.txt");
             myWriter.write(sbSentences.toString());
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
