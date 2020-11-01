@@ -10,7 +10,7 @@ For each line:
 		The sentences are similar (differ by only ONE word), and 
     have a unique key. The key indicates the position of the different word		 
 
-The final result (actually, the subtle groups) are printed to the screen and written to file (at same directory of the project).
+The final result (actually, the subtle groups) are printed to the screen and written to file - output.txt (at same directory of the project).
 
 ************************************************************************************************************************************
 
@@ -28,6 +28,8 @@ How to run?
   and then the project cannot read its content )                                
   
 2 This is a standard java project. Please run class Main 
+
+3 The result is been store in output.txt file and also been printed to the console
 
 ************************************************************************************************************************************
 
