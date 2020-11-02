@@ -2,6 +2,7 @@
 Overview of the solution:
 
 Read lines from input file
+
 For each line:
 	Add line to group of same number of words.
 
