@@ -7,9 +7,11 @@ For each line:
 	Add line to group of same number of words.
 
   Create another subtle groups that satisfies the following:
+		
 		Contains sentences that belong to the same group (same number of words)
+		
 		The sentences are similar (differ by only ONE word), and 
-    have a unique key. The key indicates the position of the different word		 
+                have a unique key. The key indicates the position of the different word		 
 
 The final result (actually, the subtle groups) are printed to the screen and written to file - output.txt (at same directory of the project).
 
