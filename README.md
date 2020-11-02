@@ -10,8 +10,8 @@ For each line:
 		
 		Contains sentences that belong to the same group (same number of words)
 		
-		The sentences are similar (differ by only ONE word), 
-		have a unique key. The key indicates the position of the different word		 
+		The sentences are similar (differ by only ONE word),have a unique key. 
+		The key indicates the position of the different word		 
 
 The final result (actually, the subtle groups) are printed to the screen and written to file - output.txt (at same directory of the project).
 
