@@ -19,7 +19,7 @@ The final result (actually, the subtle groups) are printed to the screen and wri
 
 How to run?
 
-1 Clone the project from master branch of https://github.com/odedpinchover/MyProject/new/master?readme=1
+1 Clone the project from main branch
 
   After you open the project please verify that resource folder is marked as the resources folder for this project - 
   you should have this line in your TestProject.iml file under content tag
